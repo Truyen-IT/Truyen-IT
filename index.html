@@ -1,0 +1,248 @@
+<html>
+
+<head>
+
+    <title>trang web cat toc dep nhat tai viet nam</title>
+    <link rel="stylesheet" href="stt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--ban ner-->
+    <section id="banner">
+        <img src="logo.png" class="logo">
+        <div class="banner-text">
+            <h1>HEAR STUDIO</h1>
+            <p>cat toc dep voi nhieu mau moi</p>
+            <div class="banner-btn">
+                <a href="#">
+                    <span></span>find out</a>
+                <a href="#">
+                    <span></span>get out</a>
+            </div>
+
+        </div>
+    </section>
+    <!--ket thuc baner-->
+    <!--sidenav-->
+    <section id="sideNav">
+        <nav>
+            <ul>
+                <li>
+                    <A href="#">HOME</A>
+                </li>
+                <li>
+                    <A href="#">FEATURE</A>
+                </li>
+                <li>
+                    <A href="#">servive</A>
+                </li>
+                <li>
+                    <A href="#">TESTIMONIAL</A>
+                </li>
+                <li>
+                    <A href="#">meet us</A>
+                </li>
+
+
+
+            </ul>
+        </nav>
+    </section>
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+    <!--ket thuc nadeNAv-->
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "close.png";
+            } else {
+                sideNav.style.right = "-250";
+                menu.src = "menu.png";
+
+            }
+        }
+    </script>
+    <!--end cua sidenav-->
+    <!--future-->
+    <section id="feature">
+        <div class="title-text">
+            <p>features</p>
+            <h1>Why choose us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>LICH DAT</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi1"></i>
+                    </div>
+                    <div class="feture-text">
+                        <p>Dat lich tai day nha ban</p>
+                    </div>
+                </div>
+                <h1>UU DAI</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-check2-square"></i>
+                    </div>
+                    <div class="feture-text">
+                        <p>uu dai khi ban hot toc tai co so cua chung toi</p>
+                    </div>
+                </div>
+                <h1>LI DO</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-currency-euro"></i>
+                    </div>
+                    <div class="feture-text">
+                        <p>Li do ban lua chon co so cua chung toi de hot toc</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="barber-man.jpg">
+
+            </div>
+        </div>
+    </section>
+    <!-- end future-->
+    <!--service-->
+    <section id="service">
+        <div class="title-text">
+            <p>service</p>
+            <h1>we provider better</h1>
+
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <div class="overlay"></div>
+                <img src="pic-1.jpg" alt="">
+
+                <div class="service-desc">
+                    <h3>ber trim </h3>
+                    <hr>
+                    <p>tui ten la gi do</p>
+                </div>
+
+            </div>
+            <div class="single-service">
+                <img src="pic-2.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>hear cut </h3>
+                    <hr>
+                    <p>tui ten la gi do</p>
+                </div>
+
+            </div>
+            <div class="single-service">
+                <img src="pic-3.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>cat ngang </h3>
+                    <hr>
+                    <p>tui ten la gi do</p>
+                </div>
+
+            </div>
+            
+            <div class="single-service">
+                <img src="pic-4.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>cao troc</h3>
+                    <hr>
+                    <p>tui ten la gi do</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end vervice-->
+    <!--testimonial-->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>testimonial</p>
+            <h1>what clent say</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img-1.jpg" alt="">
+                    <div class="user-info">
+                        <h4>kien thuc<i class="bi bi-twitter"></i></h4>
+                        <small>@phantri truyen</small>
+                    </div>
+                </div>
+                <p>qua tot khi co bo toc dep vo cung</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img-2.jpg" alt="">
+                    <div class="user-info">
+                        <h4>adinomoto<i class="bi bi-twitter"></i></h4>
+                        <small>@phanaass truyen</small>
+                    </div>
+                </div>
+                <p>qua tot khi co bo toc dep vo cung</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img-3.jpg" alt="">
+                    <div class="user-info">
+                        <h4>cu bi<i class="bi bi-twitter"></i></h4>
+                        <small>@phantkkkri truyen</small>
+                    </div>
+                </div>
+                <p>qua tot khi co bo toc dep vo cung</p>
+            </div>
+        </div>
+    </section>
+    <!--ket thuc testimonial-->
+    <!--footer-->
+    <section id="footer">
+        <img src="footer-img.png" class="footer-img">
+        <div class="title-text ">
+            <p>contac</p>
+            <h1>visit shop today</h1>
+        </div>
+        <div class="footer-row ">
+            <div class="footer-left ">
+                <h1> oopning hour</h1>
+                <p><i class="bi bi-clock "></i>mo cua hom thu bay va chu nhat</p>
+                <p><i class="bi bi-clock "></i>mo cua hom thu bay va thu hai</p>
+
+            </div>
+            <div class="footer-right ">
+                <h1>get in hou</h1>
+                <p>#30 abc colony,xyz city in <i class="bi bi-geo-alt "></i></p>
+                <p>aemanp@ctu.edu.vn <i class="bi bi-paperclip "></i></p>
+                <p>091920339<i class="bi bi-phone "></i></p>
+            </div>
+        </div>
+        <div class="social-link ">
+            <i class="bi bi-facebook "> </i>
+            <i class="bi bi-instagram "> </i>
+            <i class="bi bi-twitter "> </i>
+            <i class="bi bi-youtube "> </i>
+            <p>copyright Easy totorio youtobe charano</p>
+        </div>
+    </section>
+</body>
+
+
+
+
+</html>
